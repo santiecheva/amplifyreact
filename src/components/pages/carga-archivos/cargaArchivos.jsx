@@ -20,11 +20,11 @@ function CargaArchivos() {
                 <div className="p-content-header p-distancia">
                     <Header />
                 </div>
-                <div className="p-content-palabras p-distancia">
-                    <div className="p-content-text">
+                <div className="p-content-palabras p-distancia"  onClick={() => { setShow(!show); }}>
+                    <div className="p-content-text" >
                         <div className="p-text">Palabras clave para cargar los informes</div>
                         <div className="p-content-image">
-                            <button type="button" onClick={() => { setShow(!show); }}><Images Imagen={FlechaAbajo} /></button>
+                            <button type="button"><Images Imagen={FlechaAbajo} /></button>
                         </div>
                     </div>
                     <div>

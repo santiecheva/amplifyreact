@@ -1,0 +1,130 @@
+.p-content-new-header{
+    background: transparent linear-gradient(180deg, #67C7E6 0%, #3D7EA5 100%);
+    width: 100%;
+    min-height: 80px;
+    max-height: 80px;
+    display: flex;
+}
+
+.p-content-new-page{
+    display: flex;
+    color: #494949;
+    width: 100%;
+}
+
+.p-logo-new{
+    width: 85%;
+    display: flex;
+}
+
+.p-foto-new{
+    width: 15%;
+    height: 100%;
+    min-height:80px ;
+    display: flex;
+    justify-content: center;
+}
+.p-image-logo-header{
+    width: 16%;
+    margin-left: 70px;
+}
+.p-image-perfil-header{
+    margin-top: 10px;
+    width: 30%;
+    height: 60px;
+    // background: transparent linear-gradient(90deg, #ffffff 0%, #ff9800 100%) 0% 0% no-repeat padding-box;
+    background-color: white;
+    border-radius: 50%;
+    justify-content: center;
+    display: flex;
+    .div-pequeño{
+        width: 80%;
+        height: 80%;
+        margin-top: 5px;
+    }
+}
+
+
+.content-option-redirect{
+    // display:inline-block;
+    // background-color: red;
+    display: grid;
+    grid-template-columns: 50% 50% ;
+    // a{
+    //     text-decoration: none;
+    // }
+    a:link {color: #494949;  text-decoration: none }
+a:hover {color: #494949;  text-decoration: none }
+a:visited {color: #494949; text-decoration: none }
+}
+
+.option-redirect{
+    position: relative;
+    border:1px solid darkgray;
+    border-radius: 8px;
+    margin: 10px 7px 10px 7px;
+    height: 90px;
+    width: 300px;
+}
+
+.display-type{
+    display: flex;
+}
+
+.content-circle{
+    width: 17%;
+    height: 80%;
+    margin-left: 8%;
+    margin-top: 18px;
+}
+
+.text-redirect{
+    width: 60%;
+    height: 90px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.content-flecha{
+    width: 15%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 90px;
+    margin-left: auto;
+}
+
+
+.option-redirect:hover{
+    background: transparent linear-gradient(180deg, #67C7E6 0%, #3D7EA5 100%);
+    color: white;
+    cursor: pointer;
+
+}
+
+.content-flecha{
+    font-size: 30px;
+}
+
+.text-information{
+    font-size: 30px;
+    b{
+    font-size: 30px;
+    }
+    span{
+    font-size: 20px;
+        
+    }
+}
+
+.second-part{
+    // background-color: red;
+    margin: 70px 100px;
+    // width: 50%;
+}
+.content-logo-izquierda{
+    min-width: 50vh;
+    width: 50%;
+    height: 50%;
+    margin: 80px 20px 0px 0px;
+}
