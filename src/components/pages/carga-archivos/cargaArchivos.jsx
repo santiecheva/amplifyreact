@@ -7,6 +7,7 @@ import Header from '../../templates/header/header';
 import FlechaAbajo from '../../../images/a.png';
 
 import './cargaArchivos.scss';
+import SelectFiles from '../../organism/select-files/selectFiles';
 function CargaArchivos() {
     const [show, setShow] = useState(false);
     return (
@@ -20,7 +21,7 @@ function CargaArchivos() {
                 <div className="p-content-header p-distancia">
                     <Header />
                 </div>
-                <div className="p-content-palabras p-distancia"  onClick={() => { setShow(!show); }}>
+                <div className="p-content-palabras p-distancia" onClick={() => { setShow(!show); }}>
                     <div className="p-content-text" >
                         <div className="p-text">Palabras clave para cargar los informes</div>
                         <div className="p-content-image">
@@ -31,9 +32,10 @@ function CargaArchivos() {
                         {show ? (<PalabrasClaves />) : <div></div>}
                     </div>
                 </div>
-                <div className="p-content-palabras p-distancia">
-                    Carga archivos desde google<br />
-                    por completar
+                <div className="p-content-palabras p-distancia p-content-files">
+                    <div className="select-files-content">
+                        <SelectFiles />
+                    </div>
                 </div>
             </div>
         </div>

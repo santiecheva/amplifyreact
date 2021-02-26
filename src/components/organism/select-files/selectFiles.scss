@@ -1,0 +1,70 @@
+.o-content-select-files{
+    width: 100%;
+    height: 100%;
+    color:#424141 ;
+    select{
+        color: #424141;
+        background-color: #F0F0F0;
+        box-shadow: 4.31px 4.31px 4px #cfcece;
+        height: 100%;
+        width: 100%;
+        border-radius: 8px;
+    }
+}
+.content-instrucciones{
+    height: 40px;
+    select{
+        height: 20px;
+        font-size: 20px;
+        height: 100%;
+        width: 100%;
+        background-color: #F0F0F0;
+        box-shadow: 4.31px 4.31px 4px #cfcece;
+    }
+}
+.o-content-text-drive{
+    color:#424141;
+    padding-top: 10px;
+    // min-height: 60px;
+    span{
+        color:#004A77;
+        font-weight: 500;
+        font-size: 20px;
+    }
+}
+
+.o-content-selects{
+    display: grid;
+    grid-template-columns: 40% 30% 30%;
+    div{
+        margin-right: 20px;    
+    }
+}
+.o-content-input-text{
+    width: 75%;
+    height: 40px;
+    min-height: 15px;
+    margin-top: 60px;
+    input{
+        width: 100%;
+        height: 100%;
+        border-radius: 13px;
+        box-shadow: 4.31px 4.31px 4px #cfcece;
+        border: 1px solid #8d8c8c ;
+        background-color: #F0F0F0;
+
+    }
+}
+.o-content-input-button{
+    button{
+        width: 30%;
+        height: 40px;
+        border-radius: 40px;
+        background-color: #3D7EA5;
+        color: white;
+    }
+}
+
+.asfasf{
+    height: 1px;
+}

@@ -25,9 +25,9 @@ const Aside = (Props) => {
                 <NavLink exact activeClassName="active" to="/prueba">
                     <LinkAside texto="grafica" />
                 </NavLink>
-                <NavLink exact activeClassName="active" onClick={mensaje} to="/">
+                {/* <NavLink exact activeClassName="active" onClick={mensaje} to="/">
                     <LinkAside texto="Generar reportes" />
-                </NavLink>
+                </NavLink> */}
                 <NavLink exact activeClassName="active" to="/">
                     <LinkAside texto="Volver al login" />
                 </NavLink>

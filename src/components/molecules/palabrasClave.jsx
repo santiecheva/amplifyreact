@@ -19,13 +19,13 @@ function PalabrasClaves() {
                 <h4>Marca Ingresos y Utilidad</h4>
                 Tiempos por persona - fuente: VAF<br/>
                 Balance de prueba por cuenta - fuente: Contai<br/>
-                EEFF Panama - fuente: VAF
+                EEFF Panamá - fuente: VAF
             </div>
             <div className="m-content-info">
                 <h4>P&G por Negocio</h4>
                 Estado de resultados detallado por centro de costros: VAF<br/>
                 Tiempos por persona - fuente: VAF<br/>
-                EEFF Panama - fuente: VAF
+                EEFF Panamá - fuente: VAF
             </div>
             <div className="m-content-info">
                 <h4>OKR</h4>
